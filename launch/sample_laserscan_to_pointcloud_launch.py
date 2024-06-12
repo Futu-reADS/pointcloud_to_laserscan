@@ -30,7 +30,7 @@ def generate_launch_description():
             package='tf2_ros',
             executable='static_transform_publisher',
             name='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'scan']
+            arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'scan']    # 20240612FTR modified
         ),
         Node(
             package='pointcloud_to_laserscan',
